@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+
+/* style for top nav bar */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 157px 45px 143px;
+}
+nav h2 a{
+    color: rgb(13, 19, 33);
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 32px;
+}
+nav button{
+    color: rgb(13, 19, 33);
+    font-size: 19px;
+    font-weight: 600;
+    padding: 17px 23px 17px 23px;
+    border: 1px solid rgb(13, 19, 33);;
+    border-radius: 8px;
+}
+
+/* hero banner part start  */
+ 
+#hero{
+    height: 620px;;
+    width: 1366px;
+    background-image: url(../assets/Hero-bg.png) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content{
+    width: 939px;
+    height: 553px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.banner-content h1{
+    width: 948px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.bannner-paragraph{
+    color: rgb(13, 19, 33);
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+button{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    border: none;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
