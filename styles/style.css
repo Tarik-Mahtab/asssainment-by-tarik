@@ -82,3 +82,158 @@ nav button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+/* hero banner part end  */
+
+/* main sections start */
+main{ 
+    margin-left: 140px;
+    margin-right: 144px;
+    margin-top: 60px;
+}
+
+/* section-1 " why web dev ?" start */
+
+#section-1{
+    width: 1083px;
+    height: 1225px;
+}
+#section-1 .main-div{
+    width: 899px;
+    height: 1173px;
+    margin: 0 auto;
+}
+.div-titel h1 {
+    font-family: Azeret Mono;
+    margin: 45px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-div .paragraph p {
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.div-layer1{ 
+    width: 807px;
+    height: 248px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-l1-title h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    margin: 15px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.div-l1-title p {
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.lm-batton{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px 0px;
+align-items: center;
+padding: 11px 18px 11px 18px;
+}
+.div-layer2{ 
+    width: 807px;
+    height: 248px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-l2-title h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    margin: 15px 0px 20px 15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.div-l2-title p {
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.lm-batton{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px 0px;
+align-items: center;
+padding: 11px 18px 11px 18px;
+}
+
+/* section-1 " why web dev ?" end  */
+
+/* main section-2 "My Inspiration" start   */
+
+#section-2{
+    width: 1020px;
+    height: 736px;
+}
+.my-inspiration {
+    height: 100px;
+    width: 809px;
+    margin: 0 auto;
+}
+.my-inspiration h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inspiration-p p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+/* main section-2 "My Inspiration" end  */
+
+/* main sections end */
+
+
+
