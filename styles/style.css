@@ -96,6 +96,8 @@ main{
 #section-1{
     width: 1083px;
     height: 1225px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 #section-1 .main-div{
     width: 899px;
@@ -207,7 +209,6 @@ padding: 11px 18px 11px 18px;
     height: 736px;
 }
 .my-inspiration {
-    height: 100px;
     width: 809px;
     margin: 0 auto;
 }
@@ -231,7 +232,83 @@ padding: 11px 18px 11px 18px;
     margin: 36px 0px;
 }
 
+iframe {
+    width: 1080px;
+    height: 583px;
+    border-radius: 16px;
+    margin-top: 36px;
+    margin-bottom: 50px;
+    display: block;
+}
 /* main section-2 "My Inspiration" end  */
+
+ /* main section-3 "my current target" start  */
+#section-3 {
+    margin-top: 150px;
+    width: 1083px;
+}
+#section-3 .target .target-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+#section-3 .target .target-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 22px 0px;
+}
+#section-3 .card-all {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-3 .html {
+        width: 320px; 
+        height: 290px;
+        margin: 100px 0px 30px 0px;
+}
+.html h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+.html p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+.html div {
+    margin-top: 30px;
+}
+.html div a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 /* main sections end */
 
